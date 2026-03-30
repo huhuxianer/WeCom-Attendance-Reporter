@@ -4,6 +4,8 @@
 
 > WeCom / DingTalk attendance report automation — upload punch-clock daily reports, generate formatted attendance & overtime Excel sheets in one click.
 
+![Demo](assets/demo.gif)
+
 ## 功能特性
 
 - **数据导入** — 拖拽上传企微/钉钉导出的打卡日报 Excel 文件，自动解析
