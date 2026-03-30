@@ -1,6 +1,8 @@
-# 考勤报表生成系统
+# 考勤报表生成系统 | WeCom Attendance Automation
 
-企业微信考勤打卡日报的可视化与报表生成工具。上传企微管理端导出的上下班打卡日报 `.xlsx` 文件，一键生成标准格式的考勤统计报表和周内加班统计报表。输入输出文件见examples中的示例文件。
+企业微信考勤导出数据的可视化与考勤统计报表自动生成工具。上传企微管理端导出的上下班打卡日报 `.xlsx` 文件，一键生成标准格式的考勤数据统计报表和周内加班统计报表，可作为加班费计算辅助工具。输入输出文件见 examples 中的示例文件。
+
+> WeCom / DingTalk attendance report automation — upload punch-clock daily reports, generate formatted attendance & overtime Excel sheets in one click.
 
 ## 功能特性
 
