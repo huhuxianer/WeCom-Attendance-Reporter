@@ -1,0 +1,15 @@
+.DS_Store
+.git
+.idea
+.vscode
+
+backend/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+
+frontend/node_modules/
+frontend/dist/
+
+资料/*.xlsx
+!资料/*模版.xlsx

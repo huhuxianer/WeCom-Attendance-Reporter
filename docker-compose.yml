@@ -1,0 +1,20 @@
+services:
+  backend:
+    image: report_project-backend:latest
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    restart: unless-stopped
+    expose:
+      - "8000"
+
+  frontend:
+    image: report_project-frontend:latest
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8082:80"
+    depends_on:
+      - backend

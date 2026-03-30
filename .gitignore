@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Data & Output
+*.xlsx
+*.tar
+# 保留模版文件和示例文件
+!资料/*模版.xlsx
+!examples/*.xlsx
+
+# Environment
+.env
+.env.*
+
+# Temp files
+*.tmp
+*.log
